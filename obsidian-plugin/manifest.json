@@ -1,0 +1,11 @@
+{
+  "id": "uqcp-compressor",
+  "name": "UQCP Compressor",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Send the active note to a local UQCP compression server",
+  "author": "Lossless Tools",
+  "authorUrl": "",
+  "fundingUrl": "",
+  "isDesktopOnly": true
+}

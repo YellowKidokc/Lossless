@@ -1,0 +1,17 @@
+vault_path: "/path/to/your/vault"  # Change to your Obsidian vault
+output_folder_name: "_compressed"
+ollama:
+  host: "http://localhost:11434"
+  model: "llama3.1"
+  temperature: 0.2
+  num_ctx: 120000
+processing:
+  changed_only: false
+  max_section_chars: 18000
+  aggregate_by_folder: true
+filters:
+  include_extensions: [".md", ".markdown"]
+  exclude_folders: [".git", ".obsidian", "_compressed"]
+server:
+  host: "127.0.0.1"
+  port: 42121
