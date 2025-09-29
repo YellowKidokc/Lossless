@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+obsidian-plugin/node_modules/
+obsidian-plugin/dist/
